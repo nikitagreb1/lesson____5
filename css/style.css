@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+
+@font-face {
+   font-family: "Proxima Nova Rg";
+   src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+      url("../fonts/ProximaNova-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Proxima Nova Lt";
+   src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+* {
+   font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+h1 {
+   font-size: 50px;
+   margin-top: 30px;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-style: oblique;
+   text-decoration: underline;
+   color: rgb(111, 241, 111);
+   text-shadow: 3px 3px 10px rgba(2, 41, 2, 0.788);
+}
+
+.header-list {
+   max-width: 1000px;
+   margin: 0 auto;
+   min-width: 300px;
+   padding-top: 15px;
+}
+
+.header-item {
+   display: inline-block;
+   margin-right: 50px;
+}
+
+.header-list a {
+   font-size: 15px;
+   color: rgb(97, 95, 95);
+   text-shadow: 3px 2px 8px rgba(128, 122, 122, 0.589);
+}
+
+.decor {
+   width: 100%;
+   height: 1px;
+   background-color: rgba(192, 192, 192, 0.473);
+   margin-top: 15px;
+}
+
+.tea,
+.kettle,
+.cup {
+   width: 630px;
+   height: 406px;
+   margin: 30px auto 0;
+   display: block;
+}
+
+.original-author {
+   max-width: 468px;
+   min-width: 300px;
+   margin: 30px auto;
+}
+
+.original-author p {
+   display: inline-block;
+   text-transform: uppercase;
+   padding: 0px 5px;
+   font-size: 10px;
+}
+
+.p-r-n {
+   padding-right: 0;
+}
+
+.original-author-grey {
+   color: #9b9b9b;
+}
+
+.descr {
+   max-width: 1200px;
+   min-width: 300px;
+   margin: 0 auto;
+}
+
+.descr p {
+   font-size: 35px;
+   text-align: justify;
+   line-height: 1.3;
+   text-indent: 30px;
+}
+
+.shorty,
+.general-shorty,
+.benefit {
+   overflow: auto;
+   max-width: 500px;
+   min-width: 300px;
+   height: 200px;
+   margin: 30px auto;
+}
+
+.shorty h3,
+.general-shorty h3,
+.benefit h3 {
+   font-size: 35px;
+   font-family: "Proxima Nova Rg", sans-serif;
+   font-style: oblique;
+   text-decoration: underline;
+   letter-spacing: 4px;
+   word-spacing: 5px;
+   color: rgb(30, 158, 30);
+   text-shadow: 3px 3px 8px rgb(78, 190, 63);
+}
+
+.shorty li,
+.general-shorty li,
+.benefit li {
+   font-size: 18px;
+   line-height: 1.5;
+   padding: 8px 30px 0px;
+   letter-spacing: 2px;
+   word-spacing: 4px;
+}
+
+.general {
+   margin: 0px 7%;
+}
+
+.general h2,
+.harm h2,
+.how h2,
+.footer h2 {
+   font-size: 40px;
+   text-align: center;
+   font-family: "Proxima Nova Lt", serif;
+   font-style: oblique;
+   letter-spacing: 6px;
+   word-spacing: 5px;
+   color: rgb(106, 173, 106);
+   text-shadow: 3px 3px 8px rgb(78, 190, 63);
+}
+
+.general p {
+   line-height: 1.5;
+   text-indent: 30px;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+}
+
+.general .width {
+   min-width: 300px;
+   max-width: 600px;
+   text-align: justify;
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+.general .right {
+   min-width: 300px;
+   max-width: 600px;
+   margin: 30px 0 0 auto;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.general .center {
+   font-size: 20px;
+   min-width: 300px;
+   max-width: 800px;
+   margin: 30px auto 0;
+   text-align: center;
+   text-indent: 0;
+}
+
+.general-shorty {
+   overflow: auto;
+   max-width: 500px;
+   min-width: 400px;
+   height: 200px;
+   margin: 30px auto 0;
+}
+
+.general-wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.how div {
+   margin: 0 auto;
+   max-width: 949px;
+   min-width: 300px;
+}
+
+.how-inline {
+   display: inline-block;
+   max-width: 420px;
+   min-width: 300px;
+   margin-right: 100px;
+   font-size: 17px;
+   line-height: 1.5;
+   text-align: justify;
+   text-indent: 30px;
+   margin-top: 30px;
+}
+
+.m-r-n {
+   margin-right: 0;
+}
+
+.harm-wrapper {
+   max-width: 1188px;
+   margin: 30px auto 0;
+}
+
+.first-line p,
+.second-line p {
+   display: inline-block;
+   max-width: 540px;
+   line-height: 1.5;
+   text-indent: 30px;
+   text-align: justify;
+   margin-top: 30px;
+   font-size: 17px;
+}
+
+.first-line-margin,
+.second-line-margin {
+   margin-right: 100px;
+}
+
+.footer {
+   margin-top: 30px;
+}
+
+.footer h2 {
+   text-align: center;
+}
+
+.footer div {
+   margin: 30px auto 0;
+   max-width: 800px;
+   text-align: center;
+}
+
+.footer a {
+   font-size: 40px;
+   color: rgb(57, 146, 57);
+}
